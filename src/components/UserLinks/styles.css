@@ -1,0 +1,44 @@
+.links {
+    display: flex;
+}
+
+.link-container {
+    width: 250px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.links .data {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.links .data span {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.links .data span a {
+    text-decoration: none;
+}
+
+.links .link-container .data svg {
+    overflow: visible;
+}
+
+@media (max-width: 621px) {
+    .link-container {
+        padding: 0;
+    }
+    
+    .links {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .links .data span {
+        font-size: 12px;
+    }
+}

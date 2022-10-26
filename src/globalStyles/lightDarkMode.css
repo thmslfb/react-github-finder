@@ -1,0 +1,101 @@
+/*--------------LIGHT------------------*/
+
+#light {
+    background-color: rgb(246, 248, 255);
+    transition: all 0.5s ease-in-out;
+}
+
+#light .header p {
+    color: rgb(75, 106, 155);
+}
+
+#light .toggle {
+    color: rgb(75, 106, 155);
+}
+
+#light .wrapper {
+    background-color: #FEFEFE;
+    box-shadow: 0px 16px 30px rgba(70, 96, 187, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+#light .wrapper p {
+    color: #4B6A9B;
+}
+
+#light .wrapper .search .search-input {
+    border: 1px solid #F6F8FF;
+    background-color: #F6F8FF;
+    color: rgb(34, 39, 49);
+    transition: all 0.5s ease-in-out;
+}
+
+#light .wrapper .search .search-input::placeholder {
+    color: #4B6A9B;
+}
+
+#light .wrapper .user-login {
+    color: #0079FF;
+}
+
+#light .wrapper .info {
+    background-color: #F6F8FF;
+    transition: all 0.5s ease-in-out;
+}
+
+#light .wrapper .info .data span, #light .wrapper .links .data, #light .wrapper .links .data span a {
+    color: #4B6A9B;
+}
+
+/*-------------------------------------*/
+
+/*---------------DARK------------------*/
+
+#dark {
+    background-color: rgb(20, 29, 47);
+    transition: all 0.5s ease-in-out;
+}
+
+#dark .header p {
+    color: #fff;
+}
+
+#dark .toggle {
+    color: #fff;
+}
+
+#dark .wrapper {
+    background-color: rgb(30, 42, 71);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+}
+
+#dark .wrapper p {
+    color: #fff;
+}
+
+#dark .wrapper .search .search-input {
+    background-color: rgb(20, 29, 47);
+    border: 1px solid rgb(20, 29, 47);
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+#dark .wrapper .search .search-input::placeholder {
+    color: #fff;
+}
+
+#dark .wrapper .user-login {
+    color: #0079ff;
+} 
+
+#dark .wrapper .info {
+    background-color: rgb(20, 29, 47);
+    transition: all 0.5s ease-in-out;
+}
+
+#dark .wrapper .info .data span, #dark .wrapper .links .data, #dark .wrapper .links .data span a {
+    color: #fff;
+}
+
+/*-------------------------------------*/

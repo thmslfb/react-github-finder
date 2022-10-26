@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.wrapper .search {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+.wrapper .user-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.wrapper .bio {
+    text-align: justify;
+    margin-top: 15px;
+    max-width: 500px;
+}
+
+.wrapper .error {
+    color: #ff0033;
+}
+
+@media (max-width: 621px) {
+    .wrapper {
+      width: 350px;
+    }
+
+    .wrapper .error {
+        font-size: 0.8rem;
+    }
+
+    .wrapper .search {
+        display: flex;
+        align-items: center;
+    }
+
+    .wrapper .user-name {
+      font-size: 1.2rem;
+    }
+
+    .wrapper .user-login {
+        font-size: 0.8rem;
+    }
+
+    .wrapper .created-at {
+        font-size: 0.8rem;
+    }
+
+    .wrapper .bio {
+        font-size: 0.8rem;
+    }
+}

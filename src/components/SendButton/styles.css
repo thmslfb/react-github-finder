@@ -1,0 +1,24 @@
+.send-button {
+    border: none;
+    width: 6rem;
+    height: 3.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: #0079ff;
+    color: #fff;
+    margin-left: 15px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.send-button:hover {
+    background-color: #61abff;
+}
+
+@media (max-width: 621px) {
+    .send-button {
+        width: 5rem;
+        height: 3rem;
+        font-size: 12px;
+    }
+  }

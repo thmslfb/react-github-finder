@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import './lightDarkMode.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    padding-bottom: 3vh;
+}
+
+.header p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.toggle label {
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.toggle label p {
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 621px) {
+    .header {
+        width: 350px;
+    }
+    
+    .header label p {
+        font-size: 12px;
+    }
+  }

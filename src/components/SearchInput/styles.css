@@ -1,0 +1,26 @@
+.search-input {
+    padding-left: 20px;
+    width: 24.5rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    caret-color: #0079ff;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+/* MEDIA QUERIES MOBILE */
+
+@media (max-width: 621px) {
+    .search-input {
+        width: 13rem;
+        height: 3rem;
+        font-size: 11px;
+    }
+
+    ::placeholder {
+        font-size: 11px;
+    }
+  }
