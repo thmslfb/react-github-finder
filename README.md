@@ -26,4 +26,4 @@ To assure that the following instructions will run on your machine, please check
 
 * Open your browser and go to ```localhost:4173``` or ```localhost:5173```
 
-After all these steps you should be good to go!
+After all these steps you should be good to go and work on the project!
