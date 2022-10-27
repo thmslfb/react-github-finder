@@ -1,4 +1,4 @@
-# Github Finder 🔍
+# GitHub Finder 🔍
 
 This is a project to test some front-end and back-end skills
 
