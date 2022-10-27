@@ -2,7 +2,7 @@
 
 This is a project to test some front-end and back-end skills
 
-I worked on this project to improve my knowledge of JavaScript and APIs. For this first project, I used the ReactJS library and the GitHub API. Don't hesitate to review the project in order to improve it!
+I worked on this project in order to improve my knowledge of JavaScript and APIs. For this first project, I used the ReactJS library and the GitHub API. Don't hesitate to review the project in order to improve it!
 
 ## Requirements 📝
 
