@@ -2,11 +2,11 @@
 
 This is a project to test some front-end and back-end skills
 
-I worked on this project to improve my knowledge of JavaScript and APIs. For this first project, I used the ReactJS library and the github API. Don't hesitate to review the project in order to improve it!
+I worked on this project to improve my knowledge of JavaScript and APIs. For this first project, I used the ReactJS library and the GitHub API. Don't hesitate to review the project in order to improve it!
 
 ## Requirements 📝
 
-To assure that the following instructions will run in your machine, please check these following requirements: 
+To assure that the following instructions will run on your machine, please check these following requirements: 
 
 * Desirable node version installed >= 16.16
 * Desirable npm version installed >= 8.15
