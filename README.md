@@ -11,7 +11,8 @@ To assure that the following instructions will run on your machine, please check
 * Desirable node version installed >= 16.16
 * Desirable npm version installed >= 8.15
 
-## How to use 🧑‍💻
+## How to use it? 🤔
+
 * Clone repo 
     ```
         git clone https://github.com/thmslfb/react-github-finder.git
@@ -27,3 +28,11 @@ To assure that the following instructions will run on your machine, please check
 * Open your browser and go to ```localhost:4173``` or ```localhost:5173```
 
 After all these steps you should be good to go and work on the project!
+
+## Author 👨‍💻 
+
+[@thmslfb](https://github.com/thmslfb) 
+
+## License 📜 
+
+[MIT License](LICENSE)
